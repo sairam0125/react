@@ -94,12 +94,15 @@
 //! fbc state
 
 import React from "react";
-import FBCStateEx from "./propsexample/FBCStateEx";
+
+import ExUseEffect from "./components/hooks/ExUseEffect";
 
 const App=()=>{
     return(
         <div>
-            <FBCStateEx></FBCStateEx>
+            {/* <FBCStateEx></FBCStateEx> */}
+            <ExUseEffect></ExUseEffect>
+            
         </div>
     )
 }
