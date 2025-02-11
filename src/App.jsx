@@ -96,13 +96,13 @@
 import React from "react";
 
 import ExUseEffect from "./components/hooks/ExUseEffect";
-
+import RefExamples from "./components/hooks/RefExample";
 const App=()=>{
     return(
         <div>
             {/* <FBCStateEx></FBCStateEx> */}
-            <ExUseEffect></ExUseEffect>
-            
+            {/* <ExUseEffect></ExUseEffect> */}
+            <RefExamples/>
         </div>
     )
 }

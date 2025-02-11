@@ -170,8 +170,10 @@ controlled elements or components:
 syntax:- useEffect(callback,dependancy)
 
 <react.Fragment></react.Fragment>:-
-act as a parent element for the jsx element but it wont create an extra div tag(or an extra node)
+act as a parent element for the jsx element but it wont create an extra div tag(or an extra node) on the dom tree
 
 empty fragment:- <></>: you can pas this as a parent but we cannot give key prop.
 
 3.useRef():-
+this hook is used to target the real dom elements.
+we should avoid using of ref more expect some situations like media controllings, animations

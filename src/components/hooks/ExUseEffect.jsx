@@ -29,7 +29,7 @@ const ExUseEffect=()=>{
                         // <h1>{users.name}</h1>
                         // <h3>{users.email}</h3>
                         // </>
-                        //! OR
+                        //! OR 
                         <React.Fragment key={i}>
                             <h1>{user.name}</h1>
                             <h3>{user.email}</h3>
@@ -40,5 +40,5 @@ const ExUseEffect=()=>{
         </div>
     )
 }
-export default ExUseEffect
+export default ExUseEffect;
 
